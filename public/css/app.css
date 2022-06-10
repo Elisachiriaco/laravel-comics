@@ -124,7 +124,7 @@ li a {
 }
 
 .footer-top {
-  background-image: url("../assets/images/footer-bg.jpg");
+  background-image: url("../img/footer-bg.jpg");
   background-size: cover;
   width: 100%;
   height: 300px;
@@ -134,7 +134,7 @@ li a {
 }
 .footer-top ul {
   list-style-type: none;
-  padding: 0px 30px;
+  padding: 10px 30px;
 }
 .footer-top .shop {
   margin-left: -30px;
@@ -147,6 +147,8 @@ li a {
 .footer-top li {
   color: #8f8e8e;
   padding: 2px;
+  display: block;
+  text-transform: capitalize;
 }
 .footer-top img {
   position: absolute;
