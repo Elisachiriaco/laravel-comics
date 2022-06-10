@@ -41,6 +41,7 @@ li a {
 
 .jumbotron {
   height: 300px;
+  position: relative;
 }
 .jumbotron img {
   width: 100%;
@@ -121,6 +122,22 @@ li a {
   font-size: 12px;
   text-transform: uppercase;
   width: 160px;
+}
+
+.image-hover {
+  width: 150px;
+  position: absolute;
+  bottom: -40px;
+  left: 300px;
+  z-index: 200;
+}
+.image-hover img {
+  height: 220px;
+}
+
+.line {
+  height: 60px;
+  background-color: #0282f8;
 }
 
 .footer-top {

@@ -19,5 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('/shop', function () {
-    return view('shop');
+    $comic = config('comics');
+    return view('shop',['comic' => $comic]);
 });
